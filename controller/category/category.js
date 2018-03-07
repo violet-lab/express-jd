@@ -27,5 +27,5 @@ function getCateNamesDatas(getCateNames, res) {
       }
     }
   });
-};
-module.exports = new Category()
+}
+module.exports = new Category();
