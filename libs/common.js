@@ -1,4 +1,4 @@
-"use strict"
+"use strict";
 const crypto = require('crypto');
 module.exports = {
   MD5_SUFFXIE: "HUNCSCDMM@#@$^%&^*%#$GFbggnCDSccxczvdsdhagbnfghvZfsdv",
@@ -7,4 +7,4 @@ module.exports = {
     md5Obj.update(str);
     return md5Obj.digest('hex');
   }
-}
+};
