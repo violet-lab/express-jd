@@ -10,7 +10,7 @@ class Categorygoods {
   async categorygoods (req, res, next) {
     let mId = req.query.mId;
     const sql = `select * from product,category where product.category_id=category.category_id and category.category_id='${mId}'`;
-    getCateGoods(sql, res);        
+    getCateGoods(sql, res);
   }
 }
 
@@ -28,4 +28,4 @@ function getCateGoods(sql, res) {
     }
   });
 }
-module.exports = new Categorygoods()
+module.exports = new Categorygoods();
